@@ -5,15 +5,12 @@ import Experience from "./Experience";
 function Section({ data }) {
   return (
     <>
-      <ul className="dflex">
-        <li>
-          <i className={data.icon}></i>
-        </li>
-        <li>
-          <h2>{data.title}</h2>
-        </li>
-      </ul>
-      <ul>
+      <h2>
+        <i className={data.icon}></i>
+        {data.title}
+      </h2>
+
+      <ul className="experience">
         {data.content.map((content, index) => {
           return (
             <li key={index}>

@@ -201,23 +201,23 @@ const data = {
       icon: "icon-message-circle",
       content: [
         {
-          content: "français",
+          content: "Français",
           level: "langue maternelle"
         },
         {
-          content: "anglais",
+          content: "Anglais",
           level: "langue maternelle"
         },
         {
-          content: "allemand",
+          content: "Allemand",
           level: "académique"
         },
         {
-          content: "portugais (Brésil)",
+          content: "Portugais (Brésil)",
           level: "académique"
         },
         {
-          content: "mandarin",
+          content: "Mandarin",
           level: "notions"
         }
       ]

@@ -3,16 +3,13 @@ import React from "react";
 function Skill({ data }) {
   return (
     <>
-      <ul className="dflex">
-        <li>
-          <i className={data.icon}></i>
-        </li>
-        <li>
-          <h2>{data.title}</h2>
-        </li>
-      </ul>
-      <div className="dflex">
-        <ul>
+      <h2>
+        <i className={data.icon}></i>
+        {data.title}
+      </h2>
+
+      <div className="dflex justify-between">
+        <ul className="skill">
           {data.content.map((language, index) => {
             return (
               <li key={index}>
@@ -24,7 +21,7 @@ function Skill({ data }) {
             );
           })}
         </ul>
-        <ul>
+        <ul className="skill">
           {data.title === "Langues" &&
             data.content.map((language, index) => {
               return <li key={index}>{language.level}</li>;

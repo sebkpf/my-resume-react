@@ -11,16 +11,29 @@ import Section from "./components/Section";
 import Skill from "./components/Skill";
 
 function App() {
-  console.log(data);
-
   return (
-    <>
+    <div className="dflex flex-col">
       <Profile data={data.profile} />
-      <Section data={data.categories.experiences} />
-      <Section data={data.categories.education} />
-      <Skill data={data.skills.code} />
-      <Skill data={data.skills.languages} />
-    </>
+      <div className="dflex">
+        <ul className="leftcol dflex flex-col">
+          <li>
+            <Section data={data.categories.experiences} />
+          </li>
+          <li>
+            <Skill data={data.skills.code} />
+          </li>
+        </ul>
+
+        <ul className="rightcol dflex flex-col">
+          <li>
+            <Section data={data.categories.education} />
+          </li>
+          <li>
+            <Skill data={data.skills.languages} />
+          </li>
+        </ul>
+      </div>
+    </div>
   );
 }
 
