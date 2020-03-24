@@ -1,6 +1,6 @@
 # Resume
 
-![cv image](./documentation/CV_Sebastien_Kempf.jpg)
+![cv image](./src/documentation/CV_Sebastien_Kempf.jpg)
 
 ## Available Scripts
 
