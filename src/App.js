@@ -14,7 +14,7 @@ import Hobby from "./components/Hobby";
 
 function App() {
   return (
-    <div className="dflex flex-col">
+    <main className="dflex flex-col">
       <Profile data={data.profile} />
       <div className="dflex">
         <ul className="leftcol dflex flex-col">
@@ -41,7 +41,7 @@ function App() {
           </li>
         </ul>
       </div>
-    </div>
+    </main>
   );
 }
 

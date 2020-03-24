@@ -78,7 +78,7 @@ const data = {
           },
           location: "Paris, France",
           description:
-            "Développement frontend et backend d'un MVP d'une application mobile en React Native au sein d'une équipe Agile de 3 développeurs\nFonctions notables : chat avec messages privés, geolocalisation et geocoding"
+            "Développement frontend et backend d'un MVP d'une application mobile en React Native au sein d'une équipe Agile de 3 développeurs\nFonctions notables : chat avec messages privés, géo-localisation et geocoding"
         },
         {
           title: "Approvisionneur",
