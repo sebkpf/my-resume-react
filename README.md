@@ -1,5 +1,11 @@
 # Resume
 
+<<<<<<< HEAD
+=======
+Deployed preview available here: http://sebkpf-cv.netlify.com
+
+Preview:
+>>>>>>> fixed README
 ![cv image](./src/documentation/CV_Sebastien_Kempf.jpg)
 
 ## Available Scripts
