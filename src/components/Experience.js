@@ -1,6 +1,12 @@
 import React from "react";
 
 function Experience({ content }) {
+  let strDescription = content.description;
+  console.log(typeof strDescription);
+
+  // strDescription.replace("e", "i");
+  console.log(strDescription);
+
   return (
     <ul>
       <li>
@@ -22,7 +28,33 @@ function Experience({ content }) {
           </li>
         </ul>
       </li>
-      <li>{content.description}</li>
+      {content.description && (
+        <li>
+          {content.description.split("\n").map((item, index) => {
+            return (
+              <span key={index}>
+                {item}
+                <br />
+              </span>
+            );
+          })}
+        </li>
+      )}
+      {content.projects && (
+        <li>
+          {content.projects.title} :
+          <ul>
+            {content.projects.content.map((project, index) => {
+              return (
+                <li key={index}>
+                  <i className="icon-plus"></i>
+                  {project}
+                </li>
+              );
+            })}
+          </ul>
+        </li>
+      )}
     </ul>
   );
 }

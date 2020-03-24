@@ -43,9 +43,10 @@ const data = {
       icon: "icon-plus-circle"
     },
     hobbies: {
+      title: "Passions",
       content: [
         {
-          category: "Professionnels",
+          category: "Professionnelles",
           content:
             "Programmation, Nouvelles Technologies, Gestion de projet, Oenologie",
           icon: "icon-trending-up"
@@ -77,7 +78,7 @@ const data = {
           },
           location: "Paris, France",
           description:
-            "Développement frontend et backend d'un MVP d'une application mobile en React Native au sein d'une équipe Agile de 3 développeurs"
+            "Développement frontend et backend d'un MVP d'une application mobile en React Native au sein d'une équipe Agile de 3 développeurs\nFonctions notables : chat avec messages privés, geolocalisation et geocoding"
         },
         {
           title: "Approvisionneur",
@@ -127,13 +128,16 @@ const data = {
           },
           location: "Paris, France",
           description:
-            "Formation JavaScript, Node.js, React et React Native permettant de réaliser des application web et mobiles (backend et frontend)",
-          projects: [
-            "Formnest",
-            "leboncoin React clone",
-            "Airbnb React Native clone",
-            "Marvel"
-          ]
+            "Formation JavaScript, Node.js, React et React Native permettant de réaliser des applications web et mobiles (backend et frontend)",
+          projects: {
+            title: "Projets notables",
+            content: [
+              "Générateur de formulaire en React",
+              "Clone de leboncoin en React",
+              "Clone de Airbnb en React Native",
+              "Wiki Marvel en React"
+            ]
+          }
         },
         {
           title: "Mastère Spécialisé en Marketing & Communication",

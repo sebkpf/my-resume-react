@@ -7,8 +7,10 @@ import data from "./assets/data/data";
 
 // import components
 import Profile from "./components/Profile";
+import About from "./components/About";
 import Section from "./components/Section";
 import Skill from "./components/Skill";
+import Hobby from "./components/Hobby";
 
 function App() {
   return (
@@ -16,6 +18,9 @@ function App() {
       <Profile data={data.profile} />
       <div className="dflex">
         <ul className="leftcol dflex flex-col">
+          <li>
+            <About data={data.profile} />
+          </li>
           <li>
             <Section data={data.categories.experiences} />
           </li>
@@ -30,6 +35,9 @@ function App() {
           </li>
           <li>
             <Skill data={data.skills.languages} />
+          </li>
+          <li>
+            <Hobby data={data.profile.hobbies} />
           </li>
         </ul>
       </div>
