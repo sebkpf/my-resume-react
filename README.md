@@ -1,11 +1,6 @@
 # Resume
 
-<p align="center">
-	<img
-			width="600"
-			alt="demo"
-			src="https://github.com/sebkpf/todo-react/blob/master/documentation/CV_Sebastien_Kempf.jpg">
-</p>
+![cv image](./documentation/CV_Sebastien_Kempf.jpg)
 
 <p align="center">
   Demo:<a href="https://sebkpf-cv.netlify.com/" target="_blank"> https://sebkpf-cv.netlify.com/</a>
