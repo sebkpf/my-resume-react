@@ -1,12 +1,6 @@
 import React from "react";
 
 function Experience({ content }) {
-  let strDescription = content.description;
-  console.log(typeof strDescription);
-
-  // strDescription.replace("e", "i");
-  console.log(strDescription);
-
   return (
     <ul>
       <li>
@@ -42,7 +36,7 @@ function Experience({ content }) {
       )}
       {content.projects && (
         <li>
-          {content.projects.title} :
+          {content.projects.title}
           <ul>
             {content.projects.content.map((project, index) => {
               return (

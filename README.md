@@ -1,6 +1,6 @@
 # Resume
 
-![cv image](./documentation/CV_Sebastien_Kempf.jpg)
+![cv image](./documentation/Resume_Sebastien_Kempf.png)
 
 <p align="center">
   Demo:<a href="https://sebkpf-cv.netlify.com/" target="_blank"> https://sebkpf-cv.netlify.com/</a>

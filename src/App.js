@@ -1,9 +1,10 @@
 // import packages
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 
 // import data
-import data from "./assets/data/data";
+import dataFr from "./assets/data/data-fr";
+import dataEng from "./assets/data/data-eng";
 
 // import components
 import Profile from "./components/Profile";
@@ -13,9 +14,19 @@ import Skill from "./components/Skill";
 import Hobby from "./components/Hobby";
 
 function App() {
+  const [data, setData] = useState(dataEng);
+
+  const toggleLang = () => {
+    if (data === dataEng) {
+      setData(dataFr);
+    } else {
+      setData(dataEng);
+    }
+  };
+
   return (
     <main className="dflex flex-col">
-      <Profile data={data.profile} />
+      <Profile data={data.profile} toggleLang={toggleLang} />
       <div className="dflex">
         <ul className="leftcol dflex flex-col">
           <li>

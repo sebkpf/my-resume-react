@@ -13,7 +13,7 @@ function Hobby({ data }) {
         return (
           <li key={index}>
             <i className="icon-plus"></i>
-            {hobby.category} : {hobby.content}
+            {hobby.category} {hobby.content}
           </li>
         );
       })}

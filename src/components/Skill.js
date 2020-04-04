@@ -22,10 +22,9 @@ function Skill({ data }) {
           })}
         </ul>
         <ul className="skill">
-          {data.title === "Langues" &&
-            data.content.map((language, index) => {
-              return <li key={index}>{language.level}</li>;
-            })}
+          {data.content.map((language, index) => {
+            return <li key={index}>{language.level}</li>;
+          })}
         </ul>
       </div>
     </>

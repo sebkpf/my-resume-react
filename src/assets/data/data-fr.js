@@ -11,7 +11,7 @@ const data = {
     },
     contact: {
       location: {
-        content: "Paris, France",
+        content: "Pontarlier, France",
         icon: "icon-map-pin"
       },
       email: {
@@ -46,18 +46,18 @@ const data = {
       title: "Passions",
       content: [
         {
-          category: "Professionnelles",
+          category: "Professionnelles :",
           content:
-            "Programmation, Nouvelles Technologies, Gestion de projet, Oenologie",
+            "programmation, nouvelles technologies, gestion de projet, œnologie",
           icon: "icon-trending-up"
         },
         {
-          category: "Sports",
-          content: "Escalade, Parachutisme, Speedriding, Judo",
+          category: "Sports :",
+          content: "escalade, parachutisme, speedriding, judo",
           icon: "icon-target"
         },
         {
-          category: "Voyages",
+          category: "Voyages :",
           content:
             "Asie (vécu 7 ans, backpack de 7 mois dans 8 pays), Afrique (vécu 3 ans), Amérique du Sud (vécu 6 mois), Océanie, Europe",
           icon: "icon-compass"
@@ -71,7 +71,7 @@ const data = {
       title: "Expériences",
       content: [
         {
-          title: "Lead Developper & Scrum Master",
+          title: "Lead Developer & Scrum Master",
           company: "Keep It Please",
           year: {
             start: 2020
@@ -120,7 +120,7 @@ const data = {
       title: "Formations",
       content: [
         {
-          title: "Formation Développeur Web et Mobile",
+          title: "Certification Développeur d'application Web et Mobile",
           school: "Le Reacteur - Coding Bootcamp",
           year: {
             start: 2020,
@@ -130,7 +130,7 @@ const data = {
           description:
             "Formation JavaScript, Node.js, React et React Native permettant de réaliser des applications web et mobiles (backend et frontend)",
           projects: {
-            title: "Projets notables",
+            title: "Projets notables :",
             content: [
               "Générateur de formulaire en React",
               "Clone de leboncoin en React",

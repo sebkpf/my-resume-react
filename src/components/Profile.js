@@ -1,6 +1,6 @@
 import React from "react";
 
-function Profile({ data }) {
+function Profile({ data, toggleLang }) {
   return (
     <>
       <header>
@@ -43,7 +43,14 @@ function Profile({ data }) {
           </li>
         </ul>
 
-        <img src={data.photo} alt="avatar" className="avatar" />
+        <img
+          src={data.photo}
+          alt="avatar"
+          className="avatar"
+          onClick={() => {
+            toggleLang();
+          }}
+        />
       </header>
     </>
   );
