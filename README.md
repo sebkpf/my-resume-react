@@ -55,8 +55,8 @@ npm start
 
 ## Project status
 
-Project is completed
+Project is finished
 
 ## Contact
 
-<a href="https://www.linkedin.com/in/sebastienkempf/" target="_blank">My LinkedIn profile</a>
+[My LinkedIn profile](https://www.linkedin.com/in/sebastienkempf/)
