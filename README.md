@@ -1,5 +1,9 @@
 # Resume
 
+## Overview
+
+My resume in English and French made in React. Click on my avatar to toggle the language
+
 ![cv image](./documentation/Resume_Sebastien_Kempf.png)
 
 <p align="center">
@@ -9,17 +13,20 @@
  This project was bootstrapped with <a href=https://github.com/facebook/create-react-app. target="_blank">Create React App</a>
 </p>
 
-## Overview
-
 **Single page application**
 
 - Language can be toggled when clicking on the avatar
+- Links in header are clickable
 - All info loaded from dataEng.js and dataFr located in ./src/assets/data/
 - Resume can be updated and adapted directly in dataEng and dataFr.js models
 
 **UI**
 
 - Homemade UI without framework
+
+**Client**
+
+- [React](https://reactjs.org/docs/getting-started.html)
 
 ### Running the project
 
@@ -45,6 +52,10 @@ npm start
 ## Deployment
 
 - Client deployed with Netlify
+
+## Project status
+
+Project is completed
 
 ## Contact
 

@@ -18,11 +18,15 @@ function Profile({ data, toggleLang }) {
             <ul>
               <li>
                 <i className={data.contact.phone.icon}></i>
-                {data.contact.phone.content}
+                <a href={`tel:${data.contact.phone.content}`}>
+                  {data.contact.phone.content}
+                </a>
               </li>
               <li>
                 <i className={data.contact.email.icon}></i>
-                {data.contact.email.content}
+                <a href={`mailto:${data.contact.email.content}`}>
+                  {data.contact.email.content}
+                </a>
               </li>
               <li>
                 <i className={data.contact.location.icon}></i>
@@ -33,11 +37,21 @@ function Profile({ data, toggleLang }) {
             <ul>
               <li>
                 <i className={data.contact.github.icon}></i>
-                {data.contact.github.content}
+                <a
+                  href={`https://${data.contact.github.content}`}
+                  target="_blank"
+                >
+                  {data.contact.github.content}
+                </a>
               </li>
               <li>
                 <i className={data.contact.linkedin.icon}></i>
-                {data.contact.linkedin.content}
+                <a
+                  href={`https://${data.contact.linkedin.content}`}
+                  target="_blank"
+                >
+                  {data.contact.linkedin.content}
+                </a>
               </li>
             </ul>
           </li>
