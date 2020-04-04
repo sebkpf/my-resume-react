@@ -1,5 +1,8 @@
 /* COMMON */
 #root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 21cm;
   height: 29.7cm;
   padding: 35px;
