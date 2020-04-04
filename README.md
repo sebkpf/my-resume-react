@@ -13,8 +13,9 @@
 
 **Single page application**
 
-- All info loaded from data.js located in ./src/assets/data/data.js
-- Resume can be updated and adapted directly in data.js model
+- Language can be toggled when clicking on the avatar
+- All info loaded from dataEng.js and dataFr located in ./src/assets/data/
+- Resume can be updated and adapted directly in dataEng and dataFr.js models
 
 **UI**
 
