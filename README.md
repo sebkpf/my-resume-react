@@ -17,7 +17,7 @@ My resume in English and French made in React. Click on my avatar to toggle the 
 
 - Language can be toggled when clicking on the avatar
 - Links in header are clickable
-- All info loaded from dataEng.js and dataFr located in ./src/assets/data/
+- All info loaded from dataEng.js and dataFr.js located in ./src/assets/data/
 - Resume can be updated and adapted directly in dataEng and dataFr.js models
 
 **UI**

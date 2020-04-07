@@ -7,29 +7,29 @@ const data = {
     description: {
       title: "About me",
       content: "",
-      icon: "icon-user"
+      icon: "icon-user",
     },
     contact: {
       location: {
         content: "Pontarlier, France",
-        icon: "icon-map-pin"
+        icon: "icon-map-pin",
       },
       email: {
         content: "s.kempf@live.com",
-        icon: "icon-mail"
+        icon: "icon-mail",
       },
       phone: {
         content: "+33 6 68 43 02 89",
-        icon: "icon-phone"
+        icon: "icon-phone",
       },
       github: {
         content: "github.com/sebkpf",
-        icon: "icon-github"
+        icon: "icon-github",
       },
       linkedin: {
         content: "linkedin.com/in/sebastienkempf",
-        icon: "icon-linkedin"
-      }
+        icon: "icon-linkedin",
+      },
     },
     qualities: {
       title: "Strengths",
@@ -38,9 +38,9 @@ const data = {
         "Proactive and able to question oneself",
         "Empathetic and attentive",
         "Curious and adaptable",
-        "Autonomous and team-player"
+        "Autonomous and team-player",
       ],
-      icon: "icon-plus-circle"
+      icon: "icon-plus-circle",
     },
     hobbies: {
       title: "Hobbies",
@@ -49,22 +49,22 @@ const data = {
           category: "Professional:",
           content:
             "coding, new technologies, project management, wine & spirits",
-          icon: "icon-trending-up"
+          icon: "icon-trending-up",
         },
         {
           category: "Sports:",
           content: "rock climbing, skydiving, speedriding, judo",
-          icon: "icon-target"
+          icon: "icon-target",
         },
         {
           category: "Travel:",
           content:
             "Asia (lived 7 years, 7-month backpack trip in 8 countries), Africa (lived 3 years), South America (lived 6 months), Oceania, Europe",
-          icon: "icon-compass"
-        }
+          icon: "icon-compass",
+        },
       ],
-      icon: "icon-heart"
-    }
+      icon: "icon-heart",
+    },
   },
   categories: {
     experiences: {
@@ -74,46 +74,47 @@ const data = {
           title: "Lead Developer & Scrum Master",
           company: "Keep It Please",
           year: {
-            start: 2020
+            start: 2020,
           },
           location: "Paris, France",
           description:
-            "Frontend and backend developement of a mobile application MVP in React Native within a 3-member Agile team\nNotable functions: chat with private messaging, geolocation and geocoding"
+            "Frontend and backend developement of a mobile application MVP in React Native within a 3-member Agile team\nNotable functions: chat with private messaging, geolocation and geocoding",
         },
         {
           title: "Procurement Executive",
           company: "Galeries Lafayette",
           year: {
             start: 2017,
-            end: 2019
+            end: 2019,
           },
           location: "Paris, France",
           description:
-            "Automation of restocking purchase orders based on demand and stock analysis"
+            "Automation of restocking purchase orders based on demand and stock analysis",
         },
         {
           title: "Engineering Consultant",
           company: "Bee Engineering",
           year: {
             start: 2016,
-            end: 2017
+            end: 2017,
           },
           location: "Paris, France",
-          description: "Technical project management for Airbus and Air Liquide"
+          description:
+            "Technical project management for Airbus and Air Liquide",
         },
         {
           title: "Project Coordinator",
           company: "Kurvers Singapore",
           year: {
             start: 2013,
-            end: 2015
+            end: 2015,
           },
           location: "Singapore",
           description:
-            "Logistics project management in APAC region, responsible for China-based projects"
-        }
+            "Logistics project management in APAC region, responsible for China-based projects",
+        },
       ],
-      icon: "icon-briefcase"
+      icon: "icon-briefcase",
     },
     education: {
       title: "Education",
@@ -123,7 +124,7 @@ const data = {
           school: "Le Reacteur - Coding Bootcamp",
           year: {
             start: 2020,
-            end: 2020
+            end: 2020,
           },
           location: "Paris, France",
           description:
@@ -131,34 +132,34 @@ const data = {
           projects: {
             title: "Notable projects:",
             content: [
-              "Form generator in React",
               "leboncoin clone in React",
+              "Form generator in React",
               "Airbnb clone in React Native",
-              "Marvel Wiki in React"
-            ]
-          }
+              "Marvel Wiki in React",
+            ],
+          },
         },
         {
           title: "Specialized Master in Marketing & Communication",
           school: "ESCP",
           year: {
             start: 2011,
-            end: 2012
+            end: 2012,
           },
-          location: "Paris, France"
+          location: "Paris, France",
         },
         {
           title: "Engineer diploma in Mechanical Systems",
           school: "UTT",
           year: {
             start: 2008,
-            end: 2011
+            end: 2011,
           },
-          location: "Troyes, France"
-        }
+          location: "Troyes, France",
+        },
       ],
-      icon: "icon-award"
-    }
+      icon: "icon-award",
+    },
   },
   skills: {
     code: {
@@ -167,37 +168,37 @@ const data = {
       content: [
         {
           content: "JavaScript",
-          thumbnail: require("../icons/icons8-javascript-48.png")
+          thumbnail: require("../icons/icons8-javascript-48.png"),
         },
         {
           content: "Node.js",
-          thumbnail: require("../icons/icons8-nodejs-48.png")
+          thumbnail: require("../icons/icons8-nodejs-48.png"),
         },
         {
           content: "React",
-          thumbnail: require("../icons/icons8-react-native-48.png")
+          thumbnail: require("../icons/icons8-react-native-48.png"),
         },
         {
           content: "React Native",
-          thumbnail: require("../icons/icons8-react-native-48.png")
+          thumbnail: require("../icons/icons8-react-native-48.png"),
         },
         {
           content: "MongoDB",
-          thumbnail: require("../icons/icons8-mongodb-48.png")
+          thumbnail: require("../icons/icons8-mongodb-48.png"),
         },
         {
           content: "Git",
-          thumbnail: require("../icons/icons8-git-48.png")
+          thumbnail: require("../icons/icons8-git-48.png"),
         },
         {
           content: "HTML5",
-          thumbnail: require("../icons/icons8-html-5-48.png")
+          thumbnail: require("../icons/icons8-html-5-48.png"),
         },
         {
           content: "CSS",
-          thumbnail: require("../icons/icons8-css3-48.png")
-        }
-      ]
+          thumbnail: require("../icons/icons8-css3-48.png"),
+        },
+      ],
     },
     languages: {
       title: "Languages",
@@ -205,26 +206,26 @@ const data = {
       content: [
         {
           content: "French",
-          level: "mother tongue"
+          level: "mother tongue",
         },
         {
           content: "English",
-          level: "mother tongue"
+          level: "mother tongue",
         },
         {
           content: "German",
-          level: "academic"
+          level: "academic",
         },
         {
           content: "Portuguese (Brazil)",
-          level: "academic"
+          level: "academic",
         },
         {
           content: "Mandarin",
-          level: "notions"
-        }
-      ]
-    }
-  }
+          level: "notions",
+        },
+      ],
+    },
+  },
 };
 export default data;
