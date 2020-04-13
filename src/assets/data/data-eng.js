@@ -34,7 +34,7 @@ const data = {
     qualities: {
       title: "Strengths",
       content: [
-        "Organised and logical",
+        "Organized and logical",
         "Proactive and able to question oneself",
         "Empathetic and attentive",
         "Curious and adaptable",
