@@ -30,7 +30,12 @@ function Profile({ data, toggleLang }) {
               </li>
               <li>
                 <i className={data.contact.location.icon}></i>
-                {data.contact.location.content}
+                <a
+                  href={`https://www.google.com/maps/search/?api=1&query=${data.contact.location.content}`}
+                  target="_blank"
+                >
+                  {data.contact.location.content}
+                </a>
               </li>
             </ul>
 
