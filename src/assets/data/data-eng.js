@@ -71,10 +71,20 @@ const data = {
       title: "Work experience",
       content: [
         {
+          title: "Freelance Full Stack Developer",
+          company: "JustS",
+          year: {
+            start: "March 2020",
+            end: "Present",
+          },
+          location: "Paris, France",
+        },
+        {
           title: "Lead Developer & Scrum Master",
           company: "Keep It Please",
           year: {
-            start: 2020,
+            start: "March 2020",
+            end: "March 2020",
           },
           location: "Paris, France",
           description:
@@ -84,8 +94,8 @@ const data = {
           title: "Procurement Executive",
           company: "Galeries Lafayette",
           year: {
-            start: 2017,
-            end: 2019,
+            start: "June 2017",
+            end: "March 2019",
           },
           location: "Paris, France",
           description:
@@ -95,8 +105,8 @@ const data = {
           title: "Engineering Consultant",
           company: "Bee Engineering",
           year: {
-            start: 2016,
-            end: 2017,
+            start: "June 2016",
+            end: "June 2017",
           },
           location: "Paris, France",
           description:
@@ -106,8 +116,8 @@ const data = {
           title: "Project Coordinator",
           company: "Kurvers Singapore",
           year: {
-            start: 2013,
-            end: 2015,
+            start: "May 2013",
+            end: "August 2015",
           },
           location: "Singapore",
           description:
