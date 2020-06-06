@@ -11,7 +11,7 @@ const data = {
     },
     contact: {
       location: {
-        content: "Pontarlier, France",
+        content: "Métabief, France",
         icon: "icon-map-pin",
       },
       email: {
