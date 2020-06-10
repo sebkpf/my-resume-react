@@ -5,7 +5,7 @@
   align-items: center;
   width: 21cm;
   height: 29.7cm;
-  padding: 35px;
+  padding: 30px;
   box-sizing: border-box;
   background-color: none;
   margin: auto;
@@ -109,8 +109,8 @@ header {
 
 /* COLUMNS */
 .leftcol {
-  flex: 3;
-  margin-right: 45px;
+  flex: 3.5;
+  margin-right: 30px;
   box-sizing: border-box;
 }
 .rightcol {
