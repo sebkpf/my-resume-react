@@ -167,6 +167,10 @@ header {
   margin-bottom: 5px;
   width: 100%;
 }
+.Programmation li,
+.Coding li {
+  width: 55%;
+}
 
 /* HOBBY */
 .hobby > li:first-child {

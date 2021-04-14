@@ -47,19 +47,18 @@ const data = {
       content: [
         {
           category: "Professional:",
-          content:
-            "coding, new technologies, project management, wine & spirits",
+          content: "automation, new technologies, wine & spirits",
           icon: "icon-trending-up",
         },
         {
           category: "Sports:",
-          content: "rock climbing, skydiving, speedriding, judo",
+          content: "rock climbing, paragliding, speedriding, hiking",
           icon: "icon-target",
         },
         {
           category: "Travel:",
           content:
-            "Asia (lived 7 years, 7-month backpack trip in 8 countries), Africa (lived 3 years), South America (lived 6 months), Oceania, Europe",
+            "Asia (lived 7 years + 7-month backpack trip in 8 countries), Africa (lived 3 years), South America (lived 6 months), Oceania, Europe",
           icon: "icon-compass",
         },
       ],
@@ -71,6 +70,17 @@ const data = {
       title: "Work experience",
       content: [
         {
+          title: "Full Stack Developer",
+          company: "Liip SA",
+          year: {
+            start: "July 2020",
+            end: "Present",
+          },
+          location: "Lausanne, Switzerland",
+          description:
+            "Custom CMS development in Laravel and Vue.js within a Scrum team for clients in the Luxury industry\nCI/CD GitLab, Docker, unit tests with PHPUnit and E2E tests with Cypress",
+        },
+        {
           title: "Freelance Full Stack Developer",
           company: "JustS",
           year: {
@@ -78,17 +88,8 @@ const data = {
             end: "Present",
           },
           location: "Paris, France",
-        },
-        {
-          title: "Lead Developer & Scrum Master",
-          company: "Keep It Please",
-          year: {
-            start: "March 2020",
-            end: "March 2020",
-          },
-          location: "Paris, France",
           description:
-            "Frontend and backend developement of a mobile application MVP in React Native within a 3-member Agile team\nNotable functions: chat with private messaging, geolocation and geocoding",
+            "Agile development of Web & Mobile applications in React / React Native and Express / Node.js / MongoDB\nDeployment on Google Cloud / Heroku / Netlify and on App Store / Play Store",
         },
         {
           title: "Procurement Executive",
@@ -130,22 +131,20 @@ const data = {
       title: "Education",
       content: [
         {
-          title: "Web and Mobile Developement Certification",
+          title: "Full Stack JavaScript Certification",
           school: "Le Reacteur - Coding Bootcamp",
           year: {
-            start: 2020,
-            end: 2020,
+            start: "January",
+            end: "March 2020",
           },
           location: "Paris, France",
           description:
-            "JavaScript, Node.js, React and React Native course enabling web and mobile applications development (backend and frontend)",
+            "Web and Mobile application development course: JavaScript, React, React Native, Node.js, Express, MongoDB, Git",
           projects: {
             title: "Notable projects:",
             content: [
-              "leboncoin clone in React",
-              "Form generator in React",
-              "Airbnb clone in React Native",
-              "Marvel Wiki in React",
+              `Clone "from scratch" of Leboncoin in React, API REST on Express, payment with Stripe`,
+              "Airbnb clone in React Native and Expo",
             ],
           },
         },
@@ -207,6 +206,26 @@ const data = {
         {
           content: "CSS",
           thumbnail: require("../icons/icons8-css3-48.png"),
+        },
+        {
+          content: "Docker",
+          thumbnail: require("../icons/iconfinder_97_Docker_logo_logos_4373190.png"),
+        },
+        {
+          content: "MySQL",
+          thumbnail: require("../icons/iconfinder_MySQL_1012821.png"),
+        },
+        {
+          content: "PHP",
+          thumbnail: require("../icons/iconfinder_256_Php_logo_4375039.png"),
+        },
+        {
+          content: "Laravel",
+          thumbnail: require("../icons/iconfinder_laravel_3069648.png"),
+        },
+        {
+          content: "Vue.js",
+          thumbnail: require("../icons/iconfinder_367_Vuejs_logo_4375161.png"),
         },
       ],
     },

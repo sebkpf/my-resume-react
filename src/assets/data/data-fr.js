@@ -2,7 +2,7 @@ const data = {
   profile: {
     firstname: "Sébastien",
     lastname: "Kempf",
-    title: "Full Stack Developer",
+    title: "Développeur Full Stack",
     photo: require("../images/avatar.jpeg"),
     description: {
       title: "Qui suis-je ?",
@@ -47,19 +47,18 @@ const data = {
       content: [
         {
           category: "Professionnelles :",
-          content:
-            "programmation, nouvelles technologies, gestion de projet, œnologie",
+          content: "automatisation, nouvelles technologies, œnologie",
           icon: "icon-trending-up",
         },
         {
           category: "Sports :",
-          content: "escalade, parachutisme, speedriding, judo",
+          content: "escalade, parapente, speedriding, randonnée",
           icon: "icon-target",
         },
         {
           category: "Voyages :",
           content:
-            "Asie (vécu 7 ans, backpack de 7 mois dans 8 pays), Afrique (vécu 3 ans), Amérique du Sud (vécu 6 mois), Océanie, Europe",
+            "Asie (vécu 7 ans + backpack de 7 mois dans 8 pays), Afrique (vécu 3 ans), Amérique du Sud (vécu 6 mois), Océanie, Europe",
           icon: "icon-compass",
         },
       ],
@@ -71,24 +70,25 @@ const data = {
       title: "Expériences",
       content: [
         {
-          title: "Freelance Full Stack Developer",
-          company: "JustS",
+          title: "Développeur Web Full Stack",
+          company: "Liip SA",
+          year: {
+            start: "Juillet 2020",
+            end: "Présent",
+          },
+          location: "Lausanne, Suisse",
+          description:
+            "Développement d'un CMS custom avec Laravel et Vue.js au sein d'une équipe Scrum pour des clients dans l'industrie du Luxe\nCI/CD GitLab, Docker, tests unitaires avec PHPUnit et E2E avec Cypress",
+        },
+        {
+          title: "Développeur Web Full Stack Freelance",
           year: {
             start: "Mars 2020",
             end: "Présent",
           },
           location: "Paris, France",
-        },
-        {
-          title: "Lead Developer & Scrum Master",
-          company: "Keep It Please",
-          year: {
-            start: "Mars 2020",
-            end: "Mars 2020",
-          },
-          location: "Paris, France",
           description:
-            "Développement frontend et backend d'un MVP d'une application mobile en React Native au sein d'une équipe Agile de 3 développeurs\nFonctions notables : chat avec messages privés, géo-localisation et geocoding",
+            "Développement en méthode Agile d'applications Web & Mobile en React/React Native avec Express / Node.js / MongoDB\nDéploiement sur Google Cloud / Heroku / Netlify et sur App Store / Play Store",
         },
         {
           title: "Approvisionneur",
@@ -130,22 +130,20 @@ const data = {
       title: "Formations",
       content: [
         {
-          title: "Certification Développeur d'application Web et Mobile",
+          title: "Certification Full Stack JavaScript",
           school: "Le Reacteur - Coding Bootcamp",
           year: {
-            start: 2020,
-            end: 2020,
+            start: "janvier",
+            end: "mars 2020",
           },
           location: "Paris, France",
           description:
-            "Formation JavaScript, Node.js, React et React Native permettant de réaliser des applications web et mobiles (backend et frontend)",
+            "Formation développement de site web & d'application mobile : JavaScript, React, React Native, Node.js, Express, MongoDB, Git",
           projects: {
             title: "Projets notables :",
             content: [
-              "Clone de leboncoin en React",
-              "Générateur de formulaire en React",
-              "Clone de Airbnb en React Native",
-              "Wiki Marvel en React",
+              `Clone "from scratch" de Leboncoin en React, API REST sur Express, paiement avec Stripe`,
+              "Clone de Airbnb en React Native avec Expo",
             ],
           },
         },
@@ -207,6 +205,26 @@ const data = {
         {
           content: "CSS",
           thumbnail: require("../icons/icons8-css3-48.png"),
+        },
+        {
+          content: "Docker",
+          thumbnail: require("../icons/iconfinder_97_Docker_logo_logos_4373190.png"),
+        },
+        {
+          content: "MySQL",
+          thumbnail: require("../icons/iconfinder_MySQL_1012821.png"),
+        },
+        {
+          content: "PHP",
+          thumbnail: require("../icons/iconfinder_256_Php_logo_4375039.png"),
+        },
+        {
+          content: "Laravel",
+          thumbnail: require("../icons/iconfinder_laravel_3069648.png"),
+        },
+        {
+          content: "Vue.js",
+          thumbnail: require("../icons/iconfinder_367_Vuejs_logo_4375161.png"),
         },
       ],
     },
