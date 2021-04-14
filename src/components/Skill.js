@@ -1,6 +1,20 @@
 import React from "react";
 
+function compare(a, b) {
+  if (a.content < b.content) {
+    return -1;
+  }
+  if (a.content > b.content) {
+    return 1;
+  }
+  return 0;
+}
+
 function Skill({ data }) {
+  let sortedData = data.content;
+  if (data.title === "Programmation" || data.title === "Coding") {
+    sortedData = data.content.sort(compare);
+  }
   return (
     <>
       <h2>
@@ -9,8 +23,8 @@ function Skill({ data }) {
       </h2>
 
       <div className="dflex justify-between">
-        <ul className="skill">
-          {data.content.map((language, index) => {
+        <ul className={`skill ${data.title}`}>
+          {sortedData.map((language, index) => {
             return (
               <li key={index}>
                 {language.thumbnail && (
@@ -21,8 +35,8 @@ function Skill({ data }) {
             );
           })}
         </ul>
-        <ul className="skill">
-          {data.content.map((language, index) => {
+        <ul className={`skill ${data.title}`}>
+          {sortedData.map((language, index) => {
             return <li key={index}>{language.level}</li>;
           })}
         </ul>
