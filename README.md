@@ -22,7 +22,7 @@ My resume in English and French made in React. Click on my avatar to toggle the 
 
 **UI**
 
-- Homemade UI without framework, inpsired by one of the template from [https://enhancv.com/]{https://enhancv.com/}
+- Homemade UI without framework, inpsired by one of the template from [Enhancv](https://enhancv.com/)
 
 **Client**
 
@@ -55,7 +55,7 @@ npm start
 
 ## Project status
 
-Project is finished
+Project is finished, and seldom updated
 
 ## Contact
 
