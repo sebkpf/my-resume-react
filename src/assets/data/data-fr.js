@@ -11,7 +11,7 @@ const data = {
     },
     contact: {
       location: {
-        content: "Métabief, France",
+        content: "Pontarlier, France",
         icon: "icon-map-pin",
       },
       email: {
@@ -82,6 +82,7 @@ const data = {
         },
         {
           title: "Développeur Web Full Stack Freelance",
+          company: "JustS",
           year: {
             start: "Mars 2020",
             end: "Présent",
@@ -166,7 +167,7 @@ const data = {
           location: "Troyes, France",
         },
       ],
-      icon: "icon-award",
+      icon: "icon-book",
     },
   },
   skills: {
@@ -227,6 +228,14 @@ const data = {
           thumbnail: require("../icons/iconfinder_367_Vuejs_logo_4375161.png"),
         },
       ],
+    },
+    certifications: {
+      title: "Certifications",
+      icon: "icon-award",
+      content: [
+        { content: "Professional Scrum Master I (PSM I)"},
+        { content: "Professional Scrum Developer I (PSD I)"}
+      ]
     },
     languages: {
       title: "Langues",

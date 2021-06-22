@@ -4,7 +4,7 @@ function Profile({ data, toggleLang }) {
   return (
     <>
       <header>
-        <ul>
+        <ul className="leftcol">
           <li>
             <h1>
               {data.firstname} {data.lastname}
@@ -14,7 +14,7 @@ function Profile({ data, toggleLang }) {
             <h3>{data.title}</h3>
           </li>
 
-          <li className="contact dflex">
+          <li className="contact dflex justify-around">
             <ul>
               <li>
                 <i className={data.contact.phone.icon}></i>
@@ -62,14 +62,16 @@ function Profile({ data, toggleLang }) {
           </li>
         </ul>
 
-        <img
-          src={data.photo}
-          alt="avatar"
-          className="avatar"
-          onClick={() => {
-            toggleLang();
-          }}
-        />
+        <div className="rightcol dflex justify-end">
+          <img
+            src={data.photo}
+            alt="avatar"
+            className="avatar"
+            onClick={() => {
+              toggleLang();
+            }}
+          />
+        </div>
       </header>
     </>
   );

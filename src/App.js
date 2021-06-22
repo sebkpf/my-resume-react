@@ -11,7 +11,7 @@ import Profile from "./components/Profile";
 import About from "./components/About";
 import Section from "./components/Section";
 import Skill from "./components/Skill";
-import Hobby from "./components/Hobby";
+import Others from "./components/Others";
 
 function App() {
   const [data, setData] = useState(dataEng);
@@ -45,10 +45,13 @@ function App() {
             <Section data={data.categories.education} />
           </li>
           <li>
+            <Others data={data.skills.certifications} />
+          </li>
+          <li>
             <Skill data={data.skills.languages} />
           </li>
           <li>
-            <Hobby data={data.profile.hobbies} />
+            <Others data={data.profile.hobbies} />
           </li>
         </ul>
       </div>

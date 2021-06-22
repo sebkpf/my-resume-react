@@ -1,6 +1,6 @@
 import React from "react";
 
-function Hobby({ data }) {
+function Others({ data }) {
   return (
     <ul className="hobby">
       <li>
@@ -21,4 +21,4 @@ function Hobby({ data }) {
   );
 }
 
-export default Hobby;
+export default Others;
