@@ -52,7 +52,8 @@ const data = {
         },
         {
           category: "Sports:",
-          content: "rock climbing, moutaineering, ski touring, paragliding, speedriding",
+          content:
+            "rock climbing, moutaineering, ski touring, paragliding, speedriding",
           icon: "icon-target",
         },
         {
@@ -78,7 +79,7 @@ const data = {
           },
           location: "Lausanne, Switzerland",
           description:
-            "Custom CMS development in Laravel and Vue.js within a Scrum team for clients in the Luxury industry\nInternal tool (timesheets, project management, billing, onboarding, salary) development\nCI/CD GitLab, Docker, unit tests with PHPUnit / Codeception and E2E tests with Cypress",
+            "Custom CMS development in Laravel and Vue.js within a Scrum team for clients in the Luxury industry\nInternal tool (timesheet, project management, billing, onboarding, salary, etc.) development in PHP, Vue.js and MariaDB\nCI/CD GitLab, Docker, unit tests with PHPUnit / Codeception and E2E tests with Cypress",
         },
         {
           title: "Freelance Full Stack Developer",
@@ -233,9 +234,9 @@ const data = {
       title: "Certifications",
       icon: "icon-award",
       content: [
-        { content: "Professional Scrum Master I (PSM I)"},
-        { content: "Professional Scrum Developer I (PSD I)"}
-      ]
+        { content: "Professional Scrum Master I (PSM I)" },
+        { content: "Professional Scrum Developer I (PSD I)" },
+      ],
     },
     languages: {
       title: "Languages",

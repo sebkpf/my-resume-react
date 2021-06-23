@@ -52,7 +52,8 @@ const data = {
         },
         {
           category: "Sports :",
-          content: "escalade, alpinisme, ski de randonnée, parapente, speedriding",
+          content:
+            "escalade, alpinisme, ski de randonnée, parapente, speedriding",
           icon: "icon-target",
         },
         {
@@ -78,7 +79,7 @@ const data = {
           },
           location: "Lausanne, Suisse",
           description:
-            "Développement d'un CMS custom avec Laravel et Vue.js au sein d'une équipe Scrum pour des clients dans l'industrie du Luxe\nDéveloppement de l'outil interne de pointage, gestion de projets, facturation, recrutement, salaire\nCI/CD GitLab, Docker, tests unitaires avec PHPUnit / Codeception et E2E avec Cypress",
+            "Développement d'un CMS personnalisé avec Laravel et Vue.js au sein d'une équipe Scrum pour des clients dans l'industrie du Luxe\nDéveloppement de l'outil interne (pointage, gestion de projets, facturation, recrutement, salaire, etc.) en PHP, Vue.js et MariaDB\nCI/CD GitLab, Docker, tests unitaires avec PHPUnit / Codeception et E2E avec Cypress",
         },
         {
           title: "Développeur Web Full Stack Freelance",
@@ -233,9 +234,9 @@ const data = {
       title: "Certifications",
       icon: "icon-award",
       content: [
-        { content: "Professional Scrum Master I (PSM I)"},
-        { content: "Professional Scrum Developer I (PSD I)"}
-      ]
+        { content: "Professional Scrum Master I (PSM I)" },
+        { content: "Professional Scrum Developer I (PSD I)" },
+      ],
     },
     languages: {
       title: "Langues",
