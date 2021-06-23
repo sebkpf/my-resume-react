@@ -79,7 +79,7 @@ const data = {
           },
           location: "Lausanne, Suisse",
           description:
-            "Développement d'un CMS personnalisé avec Laravel et Vue.js au sein d'une équipe Scrum pour des clients dans l'industrie du Luxe\nDéveloppement de l'outil interne (pointage, gestion de projets, facturation, recrutement, salaire, etc.) en PHP, Vue.js et MariaDB\nCI/CD GitLab, Docker, Solr / ElasticSearch, tests unitaires avec PHPUnit / Codeception et E2E avec Cypress",
+            "Développement d'un CMS personnalisé avec Laravel et Vue.js au sein d'une équipe Scrum pour des clients dans l'industrie du Luxe\nDéveloppement de l'outil interne (pointage, gestion de projets, facturation, recrutement, salaire, etc.) en PHP, Vue.js et MariaDB\nCI/CD GitLab, Docker, Solr/ElasticSearch, tests unitaires avec PHPUnit / Codeception et E2E avec Cypress",
         },
         {
           title: "Développeur Web Full Stack Freelance",

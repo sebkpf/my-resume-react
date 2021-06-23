@@ -79,7 +79,7 @@ const data = {
           },
           location: "Lausanne, Switzerland",
           description:
-            "Custom CMS development in Laravel and Vue.js within a Scrum team for clients in the Luxury industry\nInternal tool (timesheet, project management, billing, onboarding, salary, etc.) development in PHP, Vue.js and MariaDB\nCI/CD GitLab, Docker, Solr, ElasticSearch, unit tests with PHPUnit / Codeception and E2E tests with Cypress",
+            "Custom CMS development in Laravel and Vue.js within a Scrum team for clients in the Luxury industry\nInternal tool (timesheet, project management, billing, onboarding, salary, etc.) development in PHP, Vue.js and MariaDB\nCI/CD GitLab, Docker, Solr/ElasticSearch, unit tests with PHPUnit / Codeception and E2E tests with Cypress",
         },
         {
           title: "Freelance Full Stack Developer",
