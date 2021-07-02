@@ -78,8 +78,11 @@ const data = {
             end: "Présent",
           },
           location: "Lausanne, Suisse",
-          description:
-            "Développement d'un CMS personnalisé avec Laravel et Vue.js au sein d'une équipe Scrum pour des clients dans l'industrie du Luxe\nDéveloppement de l'outil interne (pointage, gestion de projets, facturation, recrutement, salaire, etc.) en PHP, Vue.js et MariaDB\nCI/CD GitLab, Docker, Solr/ElasticSearch, tests unitaires avec PHPUnit / Codeception et E2E avec Cypress",
+          description: [
+            "Développement d'un CMS personnalisé avec Laravel et Vue.js au sein d'une équipe Scrum pour des clients dans l'industrie du Luxe",
+            "Développement de l'outil interne (pointage, gestion de projets, facturation, recrutement, salaire, etc.) en PHP, Vue.js et MariaDB",
+            "CI/CD GitLab, Docker, Solr/ElasticSearch, tests unitaires avec PHPUnit / Codeception et E2E avec Cypress",
+          ],
         },
         {
           title: "Développeur Web Full Stack Freelance",
@@ -89,8 +92,10 @@ const data = {
             end: "Présent",
           },
           location: "Paris, France",
-          description:
-            "Développement en méthode Agile d'applications Web & Mobile en React/React Native avec Express / Node.js / MongoDB\nDéploiement sur Google Cloud / Heroku / Netlify et sur App Store / Play Store",
+          description: [
+            "Développement en méthode Agile d'applications Web & Mobile en React/React Native avec Express / Node.js / MongoDB",
+            "Déploiement sur Google Cloud / Heroku / Netlify et sur App Store / Play Store",
+          ],
         },
         {
           title: "Approvisionneur",
@@ -100,8 +105,9 @@ const data = {
             end: "Mars 2019",
           },
           location: "Paris, France",
-          description:
+          description: [
             "Automatisation des commandes de réassort en fonction de l'analyse du besoin et de l'état des stocks",
+          ],
         },
         {
           title: "Consultant Ingénieur",
@@ -111,8 +117,9 @@ const data = {
             end: "Juin 2017",
           },
           location: "Paris, France",
-          description:
+          description: [
             "Gestion de projets techniques chez Airbus et Air Liquide",
+          ],
         },
         {
           title: "Coordinateur Projet",
@@ -122,8 +129,9 @@ const data = {
             end: "Août 2015",
           },
           location: "Singapour",
-          description:
+          description: [
             "Gestion de projets logistiques, référent sur les projets basés en Chine",
+          ],
         },
       ],
       icon: "icon-briefcase",
@@ -139,8 +147,9 @@ const data = {
             end: "mars 2020",
           },
           location: "Paris, France",
-          description:
+          description: [
             "Formation développement de site web & d'application mobile : JavaScript, React, React Native, Node.js, Express, MongoDB, Git",
+          ],
           projects: {
             title: "Projets notables :",
             content: [

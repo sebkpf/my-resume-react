@@ -3,18 +3,6 @@ import React from "react";
 function About({ data }) {
   return (
     <div className="about dflex">
-      {/* <ul className="leftcol">
-    <li className="mb10">
-      <h2>
-        <i className={data.description.icon}></i>
-        {data.description.title}
-      </h2>
-    </li>
-    <li>
-      <p>{data.description.content}</p>
-    </li>
-  </ul> */}
-
       <ul>
         <li className="mb10">
           <h2>

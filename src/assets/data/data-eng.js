@@ -78,8 +78,11 @@ const data = {
             end: "Present",
           },
           location: "Lausanne, Switzerland",
-          description:
-            "Custom CMS development in Laravel and Vue.js within a Scrum team for clients in the Luxury industry\nInternal tool (timesheet, project management, billing, onboarding, salary, etc.) development in PHP, Vue.js and MariaDB\nCI/CD GitLab, Docker, Solr/ElasticSearch, unit tests with PHPUnit / Codeception and E2E tests with Cypress",
+          description: [
+            "Custom CMS development in Laravel and Vue.js within a Scrum team for clients in the Luxury industry",
+            "Internal tool (timesheet, project management, billing, onboarding, salary, etc.) development in PHP, Vue.js and MariaDB",
+            "CI/CD GitLab, Docker, Solr/ElasticSearch, unit tests with PHPUnit / Codeception and E2E tests with Cypress",
+          ],
         },
         {
           title: "Freelance Full Stack Developer",
@@ -89,8 +92,9 @@ const data = {
             end: "Present",
           },
           location: "Paris, France",
-          description:
+          description: [
             "Agile development of Web & Mobile applications in React / React Native and Express / Node.js / MongoDB\nDeployment on Google Cloud / Heroku / Netlify and on App Store / Play Store",
+          ],
         },
         {
           title: "Procurement Executive",
@@ -100,8 +104,9 @@ const data = {
             end: "March 2019",
           },
           location: "Paris, France",
-          description:
+          description: [
             "Automation of restocking purchase orders based on demand and stock analysis",
+          ],
         },
         {
           title: "Engineering Consultant",
@@ -111,8 +116,9 @@ const data = {
             end: "June 2017",
           },
           location: "Paris, France",
-          description:
+          description: [
             "Technical project management for Airbus and Air Liquide",
+          ],
         },
         {
           title: "Project Coordinator",
@@ -122,8 +128,9 @@ const data = {
             end: "August 2015",
           },
           location: "Singapore",
-          description:
+          description: [
             "Logistics project management in APAC region, responsible for China-based projects",
+          ],
         },
       ],
       icon: "icon-briefcase",
@@ -139,8 +146,9 @@ const data = {
             end: "March 2020",
           },
           location: "Paris, France",
-          description:
+          description: [
             "Web and Mobile application development course: JavaScript, React, React Native, Node.js, Express, MongoDB, Git",
+          ],
           projects: {
             title: "Notable projects:",
             content: [

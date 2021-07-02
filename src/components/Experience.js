@@ -24,7 +24,7 @@ function Experience({ content }) {
       </li>
       {content.description && (
         <li>
-          {content.description.split("\n").map((item, index) => {
+          {content.description.map((item, index) => {
             return (
               <span key={index}>
                 {item}
